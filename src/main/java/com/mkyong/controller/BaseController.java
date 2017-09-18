@@ -33,6 +33,7 @@ public class BaseController {
 		model.addAttribute("age", age);
 		model.addAttribute("country", country);
 		model.addAttribute("counter", ++counter);
+	    System.out.println("test");
 		logger.debug("[welcomeName] counter : {}", counter);
 		return VIEW_INDEX;
 
